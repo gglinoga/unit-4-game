@@ -1,7 +1,15 @@
 body {
-    /* background-image:url(../images/gembg.jpg); */
+    background-image:url(../images/gembg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+h1, h2, h3 {
+    font-family: Indie Flower;
+}
+
+h1 {
+    font-size: 60pt;
 }
 
 .jumbotron, .card-body, .card-heading {
@@ -10,12 +18,16 @@ body {
 
 .button0 .button1 .button2 .button3 {
     z-index: 1000;
+    align-content: center;
 }
 
 .row {
     z-index:0;
+    background-color: white;
+    margin: 0, 100px;
 }
 
 .col-md-3 {
     z-index:0;
 }
+

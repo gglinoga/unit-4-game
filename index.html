@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -9,18 +10,29 @@
 	<link href="assets/css/style.css" media="screen" rel="stylesheet" type="text/css">
 	<script src="https://code.jquery.com/jquery.js">
 	</script>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
+
 <body>
 	<div class="container">
-		<div class="jumbotron">
-			<h1>Crystal Collector</h1>
-		</div>
-		<div class="card card-default">
-			<div class="card-heading">
-				<h3>Instructions</h3>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron">
+					<h1>Crystal Collector</h1>
+				</div>
 			</div>
-			<div class="card-body" style="text-align:justify">
-				<h2>How to play: Each gem is assigned a random, hidden value at the start of the round. Press a gem to add its value to your score. Try to reach the goal without going over!</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card card-default">
+					<div class="card-heading">
+						<h3>Instructions</h3>
+					</div>
+					<div class="card-body" style="text-align:justify">
+						<h2>How to play: Each gem is assigned a random, hidden value at the start of the round. Press a gem to add its
+							value to your score. Try to reach the goal without going over!</h2>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -55,22 +67,27 @@
 				</div>
 			</div>
 		</div>
-		<div class="row" style="background-color:white;">
+		<div class="row">
 			<div class="col-md-3"><img alt="" class="button0" src="assets/images/a.jfif"></div>
 			<div class="col-md-3"><img alt="" class="button1" src="assets/images/b.jfif"></div>
 			<div class="col-md-3"><img alt="" class="button2" src="assets/images/c.jfif"></div>
 			<div class="col-md-3"><img alt="" class="button3" src="assets/images/d.jfif"></div>
 		</div>
-		<div class="card card-default">
-			<div class="card-heading">
-				<h3>Goal</h3>
-			</div>
-			<div class="card-body">
-				<h2 class="goal"></h2>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card card-default">
+					<div class="card-heading">
+						<h3>Goal</h3>
+					</div>
+					<div class="card-body">
+						<h2 class="goal"></h2>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<script src="assets/javascript/game.js">
 	</script>
 </body>
+
 </html>
