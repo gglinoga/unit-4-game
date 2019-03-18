@@ -1,0 +1,9 @@
+body {
+    background-image:url(../images/gembg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+}
