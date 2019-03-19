@@ -31,8 +31,8 @@ $(document).ready(function () {
 			} else if (this.score > this.goal) {
 				let audio = new Audio('assets/sounds/lose.mp3');
 				audio.play();
-				losemsg= function (){
-				alert("Sorry, you have lost!");
+				losemsg = function () {
+					alert("Sorry, you have lost!");
 				}
 				setTimeout(losemsg, 1000);
 				this.losses++;
